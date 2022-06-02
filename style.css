@@ -61,6 +61,7 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 0;
 }
 
 .wrapper {
@@ -89,10 +90,10 @@ dd {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   align-self: center;
   height: 300px;
   width: 200px;
+
 }
 
 #time-2 {
@@ -100,10 +101,10 @@ dd {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
   align-self: center;
   height: 300px;
   width: 200px;
+
 }
 
 img {
@@ -141,22 +142,11 @@ footer {
 
 @media (max-width: 600px) {
   img {
-    max-height: 150px;
-  }
-
-  /* dt {
-    font-size: 12px;
-  }
-
-  dd {
-    font-size: 14px;
-  } */
-
-  #time-1 {
-    height: 180px;
+    height: 140px;
   }
 
   #main-wrapper {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -170,7 +160,7 @@ footer {
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 100px;
+    width: 50px;
   }
   
 

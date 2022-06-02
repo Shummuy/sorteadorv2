@@ -203,7 +203,7 @@ const roma = {
 
 const westham = {
   logo: '<img src="assets/tierc/westham.png" alt=""></img>',
-  nome: 'West Ham United',
+  nome: 'West Ham',
   country: 'England',
   ligue: 'Premier League'
 }
