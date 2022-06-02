@@ -34,7 +34,7 @@ const juventus = {
 }
 
 const liverpool = {
-  logo: '<img src="/assets/tiera/liverpool.png" alt=""></img>',
+  logo: '<img src="assets/tiera/liverpool.png" alt=""></img>',
   nome: 'Liverpool',
   country: 'England',
   ligue: 'Premier League'
@@ -55,7 +55,7 @@ const manunited = {
 }
 
 const psg = {
-  logo: '<img src="/assets/tiera/psg.png" alt=""></img>',
+  logo: '<img src="assets/tiera/psg.png" alt=""></img>',
   nome: 'Paris Saint-Germain',
   country: 'France',
   ligue: 'Ligue 1'
