@@ -120,7 +120,7 @@ const sevilla = {
 const sociedad = {
   logo: '<img src="assets/tierb/sociedad.png" alt=""></img>',
   nome: 'Real Sociedad',
-  country: 'Germany',
+  country: 'Spain',
   ligue: 'La Liga'
 }
 
