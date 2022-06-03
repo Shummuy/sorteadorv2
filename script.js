@@ -282,6 +282,29 @@ const randomTier = [
 
 const versus = document.querySelector('.vs-hidden')
 const wrapper = document.querySelectorAll('.wrapper-hidden')
+const botoes = document.querySelectorAll('a[href^="#"]')
+
+function handleLink(e) {
+  botoes.forEach(botao => {
+    botao.classList.remove('ativo')
+  })
+  e.currentTarget.classList.add('ativo')
+}
+botoes.forEach(botao => {
+  botao.addEventListener('click', handleLink)
+})
+
+function tagsVisibility() {
+  wrapper.forEach(wrap => {
+    wrap.classList.replace('wrapper-hidden', 'wrapper')
+    // wrap.classList.add()
+  })
+}
+
+function vsVisibility() {
+  versus.classList.replace('vs-hidden', 'vs')
+  //   versus.classList.add('vs')
+}
 
 function tierA() {
   var i = Math.floor(Math.random() * timesA.length - 1 + 1)
@@ -385,16 +408,4 @@ function buttonD() {
   random()
   tagsVisibility()
   vsVisibility()
-}
-
-function tagsVisibility() {
-  wrapper.forEach(wrap => {
-    wrap.classList.remove('wrapper-hidden')
-    wrap.classList.add('wrapper')
-  })
-}
-
-function vsVisibility() {
-  versus.classList.remove('vs-hidden')
-  versus.classList.add('vs')
 }

@@ -53,6 +53,10 @@ header {
   padding: 1rem 1.09rem;
 }
 
+.ativo {
+  color: rgb(208, 255, 0);
+}
+
 main {
   margin-bottom: 1rem;
 }
